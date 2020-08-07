@@ -197,7 +197,7 @@ class BidOpsExample extends Komponent{
           >
             <h2 className={this.classes.formHeading}>Create A New Item</h2>
             <label
-              HTMLFor="newItemName"
+              For="newItemName"
             >
               Add New Item Name: {'  '}
             </label>
@@ -236,19 +236,20 @@ class BidOpsExample extends Komponent{
           </ul>
           <div className={this.classes.modal}>
           <form>
-             <select>
                 {this.data.categories.length?
                   fu.mapElements(this.data.categories, (cat)=>{
-                    return (<option
+                    return (<div><input
+                      type='checkbox'
                       value={cat.name}
                       key={cat.id}
-                      >
-                        {cat.name}
-                      </option>)
-                  }, 'select'):
+                      id={`${cat.name}_${cat.id}`}
+                      />
+                      <label For={`${cat.name}_${cat.id}`}>{cat.name}</label>
+                      </div>
+                      )
+                  }):
                   ''
                 }
-             </select>
              </form>
           </div>
     </div>
