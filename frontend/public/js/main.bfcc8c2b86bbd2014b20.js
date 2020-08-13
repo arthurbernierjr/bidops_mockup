@@ -23626,26 +23626,28 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "./node_modules/@babel/runtime/helpers/toConsumableArray.js");
 /* harmony import */ var _babel_runtime_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/asyncToGenerator.js");
-/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/asyncToGenerator.js");
+/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var kofujs__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! kofujs */ "./node_modules/kofujs/index.js");
 /* harmony import */ var kofujs__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(kofujs__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _url_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./url.js */ "./src/url.js");
+/* harmony import */ var _style_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./style.js */ "./src/style.js");
 
 
 
@@ -23657,15 +23659,602 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8___default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7___default()(this, result); }; }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9___default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_8___default()(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
  // assign colors and style objects
+
+ // Create Komponent Logic
+
+var BidOpsExample = /*#__PURE__*/function (_Komponent) {
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7___default()(BidOpsExample, _Komponent);
+
+  var _super = _createSuper(BidOpsExample);
+
+  function BidOpsExample(props) {
+    var _this;
+
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4___default()(this, BidOpsExample);
+
+    _this = _super.call(this, props);
+    _this.classes = _this.setStyles(_style_js__WEBPACK_IMPORTED_MODULE_12__["styles"]).classes;
+    _this.data = {
+      items: [],
+      categories: [],
+      attributes: [],
+      properties: [],
+      newItemName: '',
+      newCategoryName: '',
+      numericPropertyNames: [],
+      stringPropertyNames: []
+    };
+    _this.state = {
+      showFilter: false,
+      currentFilter: '',
+      filteredItems: [],
+      updateItemName: '',
+      updateCategoryName: ''
+    };
+    _this.getItems = _this.getItems.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
+    _this.handleCreateItem = _this.handleCreateItem.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
+    _this.handleChange = _this.handleChange.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
+    _this.handleUpdateItem = _this.handleUpdateItem.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
+    _this.handleClick = _this.handleClick.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
+    _this.createCategory = _this.createCategory.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
+    return _this;
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5___default()(BidOpsExample, [{
+    key: "komponentDidMount",
+    value: function () {
+      var _komponentDidMount = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return this.getItems();
+
+              case 2:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function komponentDidMount() {
+        return _komponentDidMount.apply(this, arguments);
+      }
+
+      return komponentDidMount;
+    }()
+  }, {
+    key: "handleChange",
+    value: function () {
+      var _handleChange = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee2(event) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _context2.next = 2;
+                return this.updateData(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1___default()({}, event.target.id, event.target.value));
+
+              case 2:
+                console.log(this.data[event.target.id]);
+
+              case 3:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this);
+      }));
+
+      function handleChange(_x) {
+        return _handleChange.apply(this, arguments);
+      }
+
+      return handleChange;
+    }()
+  }, {
+    key: "handleUpdateChange",
+    value: function () {
+      var _handleUpdateChange = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee3(event) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                _context3.next = 2;
+                return this.setState(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1___default()({}, event.target.id, event.target.value));
+
+              case 2:
+                console.log(this.state[event.target.id]);
+
+              case 3:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3, this);
+      }));
+
+      function handleUpdateChange(_x2) {
+        return _handleUpdateChange.apply(this, arguments);
+      }
+
+      return handleUpdateChange;
+    }()
+  }, {
+    key: "showErrorModal",
+    value: function showErrorModal() {
+      this.setState({
+        showErrorModal: true
+      });
+    } //Create
+
+  }, {
+    key: "handleCreateItem",
+    value: function () {
+      var _handleCreateItem = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee4(event) {
+        var response, createdItem;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee4$(_context4) {
+          while (1) {
+            switch (_context4.prev = _context4.next) {
+              case 0:
+                event.preventDefault();
+
+                if (this.data.newItemName) {
+                  _context4.next = 3;
+                  break;
+                }
+
+                return _context4.abrupt("return", this.showErrorModal());
+
+              case 3:
+                _context4.prev = 3;
+                _context4.next = 6;
+                return fetch("".concat(_url_js__WEBPACK_IMPORTED_MODULE_11__["url"], "/items"), {
+                  method: 'POST',
+                  body: JSON.stringify({
+                    item: {
+                      name: this.data.newItemName
+                    }
+                  }),
+                  headers: {
+                    'Accept': 'application/json, text/plain, */*',
+                    'Content-Type': 'application/json'
+                  }
+                });
+
+              case 6:
+                response = _context4.sent;
+                _context4.next = 9;
+                return response.json();
+
+              case 9:
+                createdItem = _context4.sent;
+                _context4.next = 12;
+                return this.updateData({
+                  newItemName: '',
+                  items: [createdItem].concat(_babel_runtime_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_0___default()(this.data.items))
+                });
+
+              case 12:
+                console.log(this.data.newItemName);
+                _context4.next = 18;
+                break;
+
+              case 15:
+                _context4.prev = 15;
+                _context4.t0 = _context4["catch"](3);
+                console.error(_context4.t0);
+
+              case 18:
+              case "end":
+                return _context4.stop();
+            }
+          }
+        }, _callee4, this, [[3, 15]]);
+      }));
+
+      function handleCreateItem(_x3) {
+        return _handleCreateItem.apply(this, arguments);
+      }
+
+      return handleCreateItem;
+    }()
+  }, {
+    key: "createCategory",
+    value: function () {
+      var _createCategory = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee5(event) {
+        var response, createdCategory;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee5$(_context5) {
+          while (1) {
+            switch (_context5.prev = _context5.next) {
+              case 0:
+                event.preventDefault();
+
+                if (this.data.newCategoryName) {
+                  _context5.next = 3;
+                  break;
+                }
+
+                return _context5.abrupt("return", this.showErrorModal());
+
+              case 3:
+                _context5.prev = 3;
+                _context5.next = 6;
+                return fetch("".concat(_url_js__WEBPACK_IMPORTED_MODULE_11__["url"], "/categories"), {
+                  method: 'POST',
+                  body: JSON.stringify({
+                    category: {
+                      name: this.data.newCategoryName
+                    }
+                  }),
+                  headers: {
+                    'Accept': 'application/json, text/plain, */*',
+                    'Content-Type': 'application/json'
+                  }
+                });
+
+              case 6:
+                response = _context5.sent;
+                _context5.next = 9;
+                return response.json();
+
+              case 9:
+                createdCategory = _context5.sent;
+                _context5.next = 12;
+                return this.updateData({
+                  newCategoryName: '',
+                  categories: [].concat(_babel_runtime_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_0___default()(this.data.categories), [{
+                    id: createdCategory.id,
+                    name: createdCategory.name
+                  }])
+                });
+
+              case 12:
+                console.log(this.data.newItemName);
+                _context5.next = 18;
+                break;
+
+              case 15:
+                _context5.prev = 15;
+                _context5.t0 = _context5["catch"](3);
+                console.error(_context5.t0);
+
+              case 18:
+              case "end":
+                return _context5.stop();
+            }
+          }
+        }, _callee5, this, [[3, 15]]);
+      }));
+
+      function createCategory(_x4) {
+        return _createCategory.apply(this, arguments);
+      }
+
+      return createCategory;
+    }() // Read
+
+  }, {
+    key: "getItems",
+    value: function () {
+      var _getItems = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee6() {
+        var response, data, items, categories, properties, attributes;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee6$(_context6) {
+          while (1) {
+            switch (_context6.prev = _context6.next) {
+              case 0:
+                _context6.prev = 0;
+                _context6.next = 3;
+                return fetch('http://localhost:3006/items/show/allData');
+
+              case 3:
+                response = _context6.sent;
+                _context6.next = 6;
+                return response.json();
+
+              case 6:
+                data = _context6.sent;
+                items = data.items, categories = data.categories, properties = data.properties, attributes = data.attributes;
+                _context6.next = 10;
+                return this.updateData({
+                  items: items,
+                  categories: categories,
+                  properties: properties,
+                  attributes: attributes
+                });
+
+              case 10:
+                console.log(this.data);
+                _context6.next = 16;
+                break;
+
+              case 13:
+                _context6.prev = 13;
+                _context6.t0 = _context6["catch"](0);
+                console.error(_context6.t0);
+
+              case 16:
+              case "end":
+                return _context6.stop();
+            }
+          }
+        }, _callee6, this, [[0, 13]]);
+      }));
+
+      function getItems() {
+        return _getItems.apply(this, arguments);
+      }
+
+      return getItems;
+    }() // Update
+
+  }, {
+    key: "handleUpdateItem",
+    value: function () {
+      var _handleUpdateItem = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee7(event) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee7$(_context7) {
+          while (1) {
+            switch (_context7.prev = _context7.next) {
+              case 0:
+              case "end":
+                return _context7.stop();
+            }
+          }
+        }, _callee7);
+      }));
+
+      function handleUpdateItem(_x5) {
+        return _handleUpdateItem.apply(this, arguments);
+      }
+
+      return handleUpdateItem;
+    }()
+  }, {
+    key: "handleDeleteItem",
+    value: function () {
+      var _handleDeleteItem = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee8(event, id) {
+        var data, removed, itemsCopy, removedItemIdx;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee8$(_context8) {
+          while (1) {
+            switch (_context8.prev = _context8.next) {
+              case 0:
+                _context8.prev = 0;
+                _context8.next = 3;
+                return fetch("".concat(_url_js__WEBPACK_IMPORTED_MODULE_11__["url"], "/items/").concat(id), {
+                  method: 'DELETE',
+                  headers: {
+                    'Accept': 'application/json, text/plain, */*',
+                    'Content-Type': 'application/json'
+                  }
+                });
+
+              case 3:
+                data = _context8.sent;
+                _context8.next = 6;
+                return data.json();
+
+              case 6:
+                removed = _context8.sent;
+                itemsCopy = _babel_runtime_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_0___default()(this.data.items);
+                removedItemIdx = itemsCopy.indexOf(removed);
+                itemsCopy.splice(removedItemIdx, 1);
+                _context8.next = 12;
+                return this.updateData({
+                  items: itemsCopy
+                });
+
+              case 12:
+                _context8.next = 17;
+                break;
+
+              case 14:
+                _context8.prev = 14;
+                _context8.t0 = _context8["catch"](0);
+                console.error(_context8.t0);
+
+              case 17:
+              case "end":
+                return _context8.stop();
+            }
+          }
+        }, _callee8, this, [[0, 14]]);
+      }));
+
+      function handleDeleteItem(_x6, _x7) {
+        return _handleDeleteItem.apply(this, arguments);
+      }
+
+      return handleDeleteItem;
+    }()
+  }, {
+    key: "handleClick",
+    value: function () {
+      var _handleClick = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee9(event, button) {
+        var response, data;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee9$(_context9) {
+          while (1) {
+            switch (_context9.prev = _context9.next) {
+              case 0:
+                if (this.state.currentFilter === button.name) {
+                  this.setState({
+                    showFilter: false,
+                    currentFilter: ''
+                  });
+                } else {
+                  this.setState({
+                    showFilter: true,
+                    currentFilter: button.name
+                  });
+                }
+
+                _context9.prev = 1;
+
+                if (!this.state.showFilter) {
+                  _context9.next = 12;
+                  break;
+                }
+
+                _context9.next = 5;
+                return fetch("".concat(_url_js__WEBPACK_IMPORTED_MODULE_11__["url"], "/categories/").concat(button.id));
+
+              case 5:
+                response = _context9.sent;
+                _context9.next = 8;
+                return response.json();
+
+              case 8:
+                data = _context9.sent;
+                this.updateData({
+                  items: data.items
+                });
+                _context9.next = 15;
+                break;
+
+              case 12:
+                if (!(this.state.currentFilter === '')) {
+                  _context9.next = 15;
+                  break;
+                }
+
+                _context9.next = 15;
+                return this.getItems();
+
+              case 15:
+                _context9.next = 20;
+                break;
+
+              case 17:
+                _context9.prev = 17;
+                _context9.t0 = _context9["catch"](1);
+                console.error(_context9.t0);
+
+              case 20:
+              case "end":
+                return _context9.stop();
+            }
+          }
+        }, _callee9, this, [[1, 17]]);
+      }));
+
+      function handleClick(_x8, _x9) {
+        return _handleClick.apply(this, arguments);
+      }
+
+      return handleClick;
+    }()
+  }, {
+    key: "present",
+    value: function present() {
+      var _this2 = this;
+
+      return h("div", {
+        className: this.classes.pageContainer
+      }, h("div", {
+        className: this.classes.formContainer
+      }, h("form", {
+        className: this.classes.form,
+        onSubmit: this.handleCreateItem
+      }, h("h2", {
+        className: this.classes.formHeading
+      }, "Create A New Item"), h("label", {
+        For: "newItemName"
+      }, "Add New Item Name: ", '  '), h("input", {
+        type: "text",
+        id: "newItemName",
+        value: this.data.newItemName,
+        onChange: this.handleChange
+      }), h("div", {
+        className: this.classes.buttonContainer
+      }, h("input", {
+        type: "submit",
+        value: "Create New Item",
+        className: this.classes.createButton
+      })))), h("div", {
+        className: this.classes.categoryFilter
+      }, h("h1", null, "Filter By Category"), h("div", null, this.data.categories.length ? kofujs__WEBPACK_IMPORTED_MODULE_10__["fu"].mapElements(this.data.categories, function (button) {
+        return h("button", {
+          onClick: function onClick(e) {
+            _this2.handleClick(e, button);
+          },
+          className: _this2.classes.updateButton,
+          id: button.name,
+          key: button.id,
+          style: "font-size: 1.5rem;"
+        }, button.name);
+      }) : '', h("div", {
+        className: this.classes.formContainer
+      }, h("form", {
+        className: this.classes.form,
+        onSubmit: this.createCategory
+      }, h("input", {
+        type: "text",
+        id: "newCategoryName",
+        onChange: this.handleChange,
+        placeholder: 'Add Category',
+        value: this.data.newCategoryName
+      }), h("input", {
+        type: "submit",
+        className: this.classes.createButton,
+        style: "font-size: 1.5rem;",
+        value: "Create a Category"
+      }))))), h("ul", {
+        className: this.classes.itemsContainer
+      }, this.data.items.length && kofujs__WEBPACK_IMPORTED_MODULE_10__["fu"].mapElements(this.data.items, function (item) {
+        return h("li", {
+          className: _this2.classes.itemCard
+        }, h("h1", null, item.name), h("p", null, item.name), h("div", {
+          className: _this2.classes.buttonContainer
+        }, h("button", {
+          className: _this2.classes.updateButton
+        }, "Update"), h("button", {
+          onClick: function onClick(e) {
+            _this2.handleDeleteItem(e, item.id);
+          },
+          className: _this2.classes.deleteButton
+        }, "Delete")));
+      })));
+    }
+  }]);
+
+  return BidOpsExample;
+}(kofujs__WEBPACK_IMPORTED_MODULE_10__["Komponent"]);
+
+Object(kofujs__WEBPACK_IMPORTED_MODULE_10__["render"])(h(BidOpsExample, null), document.getElementById('app'));
+
+/***/ }),
+
+/***/ "./src/style.js":
+/*!**********************!*\
+  !*** ./src/style.js ***!
+  \**********************/
+/*! exports provided: mainColor, brightOrange, dimlyBlue, successGreen, creativeBlue, borderRadius, buttonStyle, paragraphFont, styles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mainColor", function() { return mainColor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "brightOrange", function() { return brightOrange; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dimlyBlue", function() { return dimlyBlue; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "successGreen", function() { return successGreen; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "creativeBlue", function() { return creativeBlue; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "borderRadius", function() { return borderRadius; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "buttonStyle", function() { return buttonStyle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "paragraphFont", function() { return paragraphFont; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 var mainColor = "rgba(253, 252, 241, 0.3)",
     brightOrange = '#ff1e00',
@@ -23753,362 +24342,31 @@ var styles = {
   deleteButton: _objectSpread(_objectSpread({
     backgroundColor: brightOrange
   }, borderRadius), buttonStyle),
-  modal: {
-    display: 'block'
-  }
-}; // Create Komponent Logic
-
-var BidOpsExample = /*#__PURE__*/function (_Komponent) {
-  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6___default()(BidOpsExample, _Komponent);
-
-  var _super = _createSuper(BidOpsExample);
-
-  function BidOpsExample(props) {
-    var _this;
-
-    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_3___default()(this, BidOpsExample);
-
-    _this = _super.call(this, props);
-    _this.classes = _this.setStyles(styles).classes;
-    _this.data = {
-      items: [],
-      categories: [],
-      attributes: [],
-      properties: [],
-      newItemName: '',
-      newCategoryName: '',
-      numericPropertyNames: [],
-      stringPropertyNames: []
-    };
-    _this.state = {
-      showFilter: false,
-      filteredItems: [],
-      updateItemName: '',
-      updateCategoryName: ''
-    };
-    _this.getItems = _this.getItems.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this));
-    _this.handleCreateItem = _this.handleCreateItem.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this));
-    _this.handleChange = _this.handleChange.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this));
-    _this.handleUpdateItem = _this.handleUpdateItem.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this));
-    return _this;
-  }
-
-  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_4___default()(BidOpsExample, [{
-    key: "komponentDidMount",
-    value: function () {
-      var _komponentDidMount = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee() {
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                console.log('Hello world');
-                _context.next = 3;
-                return this.getItems();
-
-              case 3:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this);
-      }));
-
-      function komponentDidMount() {
-        return _komponentDidMount.apply(this, arguments);
-      }
-
-      return komponentDidMount;
-    }()
-  }, {
-    key: "handleChange",
-    value: function () {
-      var _handleChange = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee2(event) {
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee2$(_context2) {
-          while (1) {
-            switch (_context2.prev = _context2.next) {
-              case 0:
-                _context2.next = 2;
-                return this.updateData(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()({}, event.target.id, event.target.value));
-
-              case 2:
-                console.log(this.data[event.target.id]);
-
-              case 3:
-              case "end":
-                return _context2.stop();
-            }
-          }
-        }, _callee2, this);
-      }));
-
-      function handleChange(_x) {
-        return _handleChange.apply(this, arguments);
-      }
-
-      return handleChange;
-    }()
-  }, {
-    key: "handleUpdateChange",
-    value: function () {
-      var _handleUpdateChange = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee3(event) {
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee3$(_context3) {
-          while (1) {
-            switch (_context3.prev = _context3.next) {
-              case 0:
-                _context3.next = 2;
-                return this.setState(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()({}, event.target.id, event.target.value));
-
-              case 2:
-                console.log(this.state[event.target.id]);
-
-              case 3:
-              case "end":
-                return _context3.stop();
-            }
-          }
-        }, _callee3, this);
-      }));
-
-      function handleUpdateChange(_x2) {
-        return _handleUpdateChange.apply(this, arguments);
-      }
-
-      return handleUpdateChange;
-    }()
-  }, {
-    key: "showErrorModal",
-    value: function showErrorModal() {
-      this.setState({
-        showErrorModal: true
-      });
-    } //Create
-
-  }, {
-    key: "handleCreateItem",
-    value: function () {
-      var _handleCreateItem = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee4(event) {
-        var response, createdItem;
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee4$(_context4) {
-          while (1) {
-            switch (_context4.prev = _context4.next) {
-              case 0:
-                event.preventDefault();
-
-                if (this.data.newItemName) {
-                  _context4.next = 3;
-                  break;
-                }
-
-                return _context4.abrupt("return", this.showErrorModal());
-
-              case 3:
-                _context4.prev = 3;
-                _context4.next = 6;
-                return fetch('http://localhost:3006/items', {
-                  method: 'POST',
-                  body: JSON.stringify({
-                    item: {
-                      name: this.data.newItemName
-                    }
-                  }),
-                  headers: {
-                    'Accept': 'application/json, text/plain, */*',
-                    'Content-Type': 'application/json'
-                  }
-                });
-
-              case 6:
-                response = _context4.sent;
-                _context4.next = 9;
-                return response.json();
-
-              case 9:
-                createdItem = _context4.sent;
-                _context4.next = 12;
-                return this.updateData({
-                  newItemName: '',
-                  items: [createdItem].concat(_babel_runtime_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_0___default()(this.data.items))
-                });
-
-              case 12:
-                console.log(this.data.newItemName);
-                _context4.next = 18;
-                break;
-
-              case 15:
-                _context4.prev = 15;
-                _context4.t0 = _context4["catch"](3);
-                console.error(_context4.t0);
-
-              case 18:
-              case "end":
-                return _context4.stop();
-            }
-          }
-        }, _callee4, this, [[3, 15]]);
-      }));
-
-      function handleCreateItem(_x3) {
-        return _handleCreateItem.apply(this, arguments);
-      }
-
-      return handleCreateItem;
-    }() // Read
-
-  }, {
-    key: "getItems",
-    value: function () {
-      var _getItems = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee5() {
-        var response, data, items, categories, properties, attributes;
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee5$(_context5) {
-          while (1) {
-            switch (_context5.prev = _context5.next) {
-              case 0:
-                _context5.prev = 0;
-                _context5.next = 3;
-                return fetch('http://localhost:3006/items/show/allData');
-
-              case 3:
-                response = _context5.sent;
-                _context5.next = 6;
-                return response.json();
-
-              case 6:
-                data = _context5.sent;
-                items = data.items, categories = data.categories, properties = data.properties, attributes = data.attributes;
-                _context5.next = 10;
-                return this.updateData({
-                  items: items,
-                  categories: categories,
-                  properties: properties,
-                  attributes: attributes
-                });
-
-              case 10:
-                console.log(this.data);
-                _context5.next = 16;
-                break;
-
-              case 13:
-                _context5.prev = 13;
-                _context5.t0 = _context5["catch"](0);
-                console.error(_context5.t0);
-
-              case 16:
-              case "end":
-                return _context5.stop();
-            }
-          }
-        }, _callee5, this, [[0, 13]]);
-      }));
-
-      function getItems() {
-        return _getItems.apply(this, arguments);
-      }
-
-      return getItems;
-    }() // Update
-
-  }, {
-    key: "handleUpdateItem",
-    value: function () {
-      var _handleUpdateItem = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee6(event) {
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee6$(_context6) {
-          while (1) {
-            switch (_context6.prev = _context6.next) {
-              case 0:
-              case "end":
-                return _context6.stop();
-            }
-          }
-        }, _callee6);
-      }));
-
-      function handleUpdateItem(_x4) {
-        return _handleUpdateItem.apply(this, arguments);
-      }
-
-      return handleUpdateItem;
-    }()
-  }, {
-    key: "handleDeleteItem",
-    value: function () {
-      var _handleDeleteItem = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee7(event) {
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee7$(_context7) {
-          while (1) {
-            switch (_context7.prev = _context7.next) {
-              case 0:
-              case "end":
-                return _context7.stop();
-            }
-          }
-        }, _callee7);
-      }));
-
-      function handleDeleteItem(_x5) {
-        return _handleDeleteItem.apply(this, arguments);
-      }
-
-      return handleDeleteItem;
-    }()
-  }, {
-    key: "present",
-    value: function present() {
-      var _this2 = this;
-
-      return h("div", {
-        className: this.classes.pageContainer
-      }, h("div", {
-        className: this.classes.formContainer
-      }, h("form", {
-        className: this.classes.form,
-        onSubmit: this.handleCreateItem
-      }, h("h2", {
-        className: this.classes.formHeading
-      }, "Create A New Item"), h("label", {
-        For: "newItemName"
-      }, "Add New Item Name: ", '  '), h("input", {
-        type: "text",
-        id: "newItemName",
-        value: this.data.newItemName,
-        onChange: this.handleChange
-      }), h("div", {
-        className: this.classes.buttonContainer
-      }, h("input", {
-        type: "submit",
-        value: "Create New Item",
-        className: this.classes.createButton
-      })))), h("ul", {
-        className: this.classes.itemsContainer
-      }, this.data.items.length && kofujs__WEBPACK_IMPORTED_MODULE_10__["fu"].mapElements(this.data.items, function (item) {
-        return h("li", {
-          className: _this2.classes.itemCard
-        }, h("h1", null, item.name), h("p", null, item.name), h("div", {
-          className: _this2.classes.buttonContainer
-        }, h("button", {
-          className: _this2.classes.updateButton
-        }, "Update"), h("button", {
-          className: _this2.classes.deleteButton
-        }, "Delete")));
-      })), h("div", {
-        className: this.classes.modal
-      }, h("form", null, this.data.categories.length ? kofujs__WEBPACK_IMPORTED_MODULE_10__["fu"].mapElements(this.data.categories, function (cat) {
-        return h("div", null, h("input", {
-          type: "checkbox",
-          value: cat.name,
-          key: cat.id,
-          id: "".concat(cat.name, "_").concat(cat.id)
-        }), h("label", {
-          For: "".concat(cat.name, "_").concat(cat.id)
-        }, cat.name));
-      }) : '')));
+  categoryFilter: {
+    display: 'block',
+    '& > h1': {
+      color: 'white',
+      textAlign: 'center'
+    },
+    '&  label': {
+      color: 'white'
     }
-  }]);
+  }
+};
 
-  return BidOpsExample;
-}(kofujs__WEBPACK_IMPORTED_MODULE_10__["Komponent"]);
+/***/ }),
 
-Object(kofujs__WEBPACK_IMPORTED_MODULE_10__["render"])(h(BidOpsExample, null), document.getElementById('app'));
+/***/ "./src/url.js":
+/*!********************!*\
+  !*** ./src/url.js ***!
+  \********************/
+/*! exports provided: url */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "url", function() { return url; });
+var url = 'http://localhost:3006';
 
 /***/ })
 

@@ -5,9 +5,9 @@ class CategoriesController < ApplicationController
   def index
     @categories = Category.all
 
-    @category_names = []
-    @categories.each { |item| @category_names.push({name: item.name, id: item.id}) }
-    render json: @category_names
+    # @category_names = []
+    # @categories.each { |item| @category_names.push({name: item.name, id: item.id}) }
+    render json: @categories.to_json(:include => :items)
   end
 
   # GET /categories/1

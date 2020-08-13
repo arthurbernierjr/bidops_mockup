@@ -12,7 +12,7 @@ yarn watch or npm run watch
 */
 gulp.task('default', cb => {
   consola.info('Starting to build files')
-  exec('yarn build:fw', function(err, stdout, stderr) {
+  exec('npm run build:fw', function(err, stdout, stderr) {
 		consola.info(stdout);
 		consola.info(stderr);
     if(err){
@@ -53,7 +53,7 @@ gulp.task('default', cb => {
    ]).on('change', (file) => {
      consola.success('Reloaded due to change')
      console.log(file)
-     return 
+     return
    });
 
   cb();
@@ -70,7 +70,7 @@ gulp.task('coffee', cb => {
 })
 
 gulp.task('build', cb => {
-	exec('yarn build:fw', function(err, stdout, stderr) {
+	exec('npm run build:fw', function(err, stdout, stderr) {
 		console.log(stdout);
 		console.log(stderr);
 		cb(err);

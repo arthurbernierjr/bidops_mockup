@@ -60,7 +60,12 @@ class ItemsController < ApplicationController
 
   # DELETE /items/1
   def destroy
-    @item.destroy
+    @deleted = @item
+    if @item.destroy
+      render json: @deleted
+    else
+      render json: @item.errors, status: :unprocessable_entity
+    end
   end
 
   private
